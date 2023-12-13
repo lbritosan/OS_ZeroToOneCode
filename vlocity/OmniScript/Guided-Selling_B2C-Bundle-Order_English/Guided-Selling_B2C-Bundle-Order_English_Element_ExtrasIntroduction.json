@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "ExtrasIntroduction",
+    "OmniProcessId": {
+        "Name": "Customer Mobile Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ExtrasSelection",
+        "OmniProcessId": {
+            "Name": "Customer Mobile Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/ExtrasSelection",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ExtrasSelection",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "One last thing...",
+        "show": null,
+        "text": "<p>Nearly there! Last chance to buy some extras for your bundle before we head to the checkout!</p>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/ExtrasIntroduction"
+}

@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "BundleIntroduction",
+    "OmniProcessId": {
+        "Name": "Customer Mobile Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "BundleSelection",
+        "OmniProcessId": {
+            "Name": "Customer Mobile Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/BundleSelection",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "BundleSelection",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "Watch. Surf. Text. Call. Live.",
+        "show": null,
+        "text": "<p>Our special bundles give you more of everything you love, in one easy to understand package. Stop worrying about seperate bills and start living. Choose from our great selection below to suit&nbsp;your lifestyle.</p>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/BundleIntroduction"
+}

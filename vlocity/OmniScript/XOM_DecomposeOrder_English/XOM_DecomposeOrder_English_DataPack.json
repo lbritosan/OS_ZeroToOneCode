@@ -1,0 +1,27 @@
+{
+    "Description": "This OS calls XOM DecompositionManager to execute Order Decomposition and Navigates to the Plan view page",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "XOM Decompose Order",
+    "OmniProcessElement": [
+        "XOM_DecomposeOrder_English_Element_Decompose-Order.json",
+        "XOM_DecomposeOrder_English_Element_Review-Decomposition-Result.json",
+        "XOM_DecomposeOrder_English_Element_Step1.json",
+        "XOM_DecomposeOrder_English_Element_SetValues1.json",
+        "XOM_DecomposeOrder_English_Element_Set-Error-Meg.json",
+        "XOM_DecomposeOrder_English_Element_Redirect-to-Order-Decomposition-page.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "XOM_DecomposeOrder_English_PropertySetConfig.json",
+    "SubType": "DecomposeOrder",
+    "Type": "XOM",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/XOM/DecomposeOrder/English",
+    "WebComponentKey": "a4291e46-470c-23a2-fb5c-789c2f3446d4"
+}

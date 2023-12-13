@@ -1,0 +1,26 @@
+{
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "updateAccountDetails",
+    "OmniProcessElement": [
+        "update_accountDetails_English_Element_drExtractAccountDetails.json",
+        "update_accountDetails_English_Element_AccountDetails.json",
+        "update_accountDetails_English_Element_Name.json",
+        "update_accountDetails_English_Element_Phone.json",
+        "update_accountDetails_English_Element_Type.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "update_accountDetails_English_PropertySetConfig.json",
+    "SubType": "accountDetails",
+    "Type": "update",
+    "UniqueName": "update_accountDetails_English_1",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/update/accountDetails/English",
+    "WebComponentKey": "d540db51-4472-2062-ab85-27c1a1873dcd"
+}

@@ -1,0 +1,53 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "dcOfferConfig",
+    "OmniProcessId": {
+        "Name": "DCLWCSampleOS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/lwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "ConfigOffer",
+        "OmniProcessId": {
+            "Name": "DCLWCSampleOS",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/dc/lwc/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/dc/lwc/English/ConfigOffer",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "ConfigOffer",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "bStandalone": false,
+        "conditionType": "Hide if False",
+        "controlWidth": 12,
+        "customAttributes": [
+            {
+                "name": "catalog-code",
+                "source": "%SelectOffer:dcChildCatalog:catalogCode%"
+            },
+            {
+                "name": "offer-code",
+                "source": "%SelectOffer:dcOffersList:offerCode%"
+            },
+            {
+                "name": "api-url",
+                "source": "%apiUrl%"
+            }
+        ],
+        "disOnTplt": false,
+        "hide": false,
+        "label": "dcOfferConfig",
+        "lwcName": "%vlocity_namespace%__dcOfferConfig",
+        "show": null
+    },
+    "Type": "Custom Lightning Web Component",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/lwc/English/dcOfferConfig"
+}

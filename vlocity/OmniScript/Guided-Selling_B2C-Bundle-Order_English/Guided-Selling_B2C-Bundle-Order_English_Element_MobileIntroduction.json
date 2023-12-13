@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "MobileIntroduction",
+    "OmniProcessId": {
+        "Name": "Customer Mobile Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "MobileSelection",
+        "OmniProcessId": {
+            "Name": "Customer Mobile Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/MobileSelection",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "MobileSelection",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "Choose a phone...",
+        "show": null,
+        "text": "<p>We've got all the latest and greatest.</p>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/MobileIntroduction"
+}

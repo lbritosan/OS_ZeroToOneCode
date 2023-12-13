@@ -1,0 +1,51 @@
+{
+    "Description": "Review decomposition  response\nshow if decompositionResponse.errorStatus=ERROR",
+    "IsActive": false,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Review Decomposition Result",
+    "OmniProcessId": {
+        "Name": "XOM Decompose Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/XOM/DecomposeOrder/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "label": "Decomposition Result",
+        "message": {
+        },
+        "nextLabel": "Next",
+        "nextWidth": 3,
+        "previousLabel": "Previous",
+        "previousWidth": 3,
+        "redirectPageName": "reviewRedirect",
+        "redirectTemplateUrl": "vlcApplicationConfirmationV2.html",
+        "sendJSONNode": "",
+        "sendJSONPath": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "ERROR",
+                        "field": "decompositionResponse:errorStatus"
+                    }
+                ]
+            }
+        },
+        "showPersistentComponent": [
+            false,
+            false
+        ],
+        "skipElements": [
+        ],
+        "ssm": false,
+        "wpm": false
+    },
+    "Type": "Review Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/XOM/DecomposeOrder/English/Review Decomposition Result"
+}

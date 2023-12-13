@@ -1,0 +1,42 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Redirect to Order Decomposition page",
+    "OmniProcessId": {
+        "Name": "XOM Decompose Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/XOM/DecomposeOrder/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "consoleTabLabel": "New",
+        "controlWidth": 12,
+        "label": "redirectToOrderDecomposition",
+        "message": {
+        },
+        "redirectPageName": "Decomposition Summary",
+        "redirectTemplateUrl": "",
+        "show": {
+            "group": {
+                "operator": "AND",
+                "rules": [
+                    {
+                        "condition": "=",
+                        "data": "OK",
+                        "field": "decompositionResponse:errorStatus"
+                    }
+                ]
+            }
+        },
+        "source": "/apex/%vlocity_namespace%__XOMViewOrderDecomposition?id=%ContextId%",
+        "ssm": false,
+        "type": "URL",
+        "validationRequired": "Submit",
+        "wpm": false
+    },
+    "Type": "Done Action",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/XOM/DecomposeOrder/English/Redirect to Order Decomposition page"
+}

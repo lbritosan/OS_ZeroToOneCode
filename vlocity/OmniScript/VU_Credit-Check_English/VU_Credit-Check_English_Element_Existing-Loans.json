@@ -1,0 +1,37 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "Existing Loans",
+    "OmniProcessId": {
+        "Name": "Credit Check",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/VU/Credit Check/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "Returned Credit Information",
+        "OmniProcessId": {
+            "Name": "Credit Check",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/VU/Credit Check/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/VU/Credit Check/English/Returned Credit Information",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "Returned Credit Information",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": null,
+        "show": null,
+        "text": "<h4>&nbsp;</h4>\n<table style=\"height: 49px;\" width=\"650\">\n<tbody>\n<tr>\n<td style=\"width: 215px;\">\n<p style=\"font-weight: 500;\">Loan Type</p>\n<p></p>\n</td>\n<td style=\"width: 217px;\">\n<p style=\"font-weight: 500;\">Loan Amount</p>\n<p></p>\n</td>\n<td style=\"width: 217px;\">\n<p style=\"font-weight: 500;\">Date Opened</p>\n<p></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 215px;\"><em>%credit:accounts|1:type%</em></td>\n<td style=\"width: 217px;\"><em>$%credit:accounts|1:amount%</em></td>\n<td style=\"width: 217px;\"><em>%credit:accounts|1:date%</em></td>\n</tr>\n<tr>\n<td style=\"width: 215px;\"><em>%credit:accounts|2:type%</em></td>\n<td style=\"width: 217px;\"><em>$%credit:accounts|2:amount%</em></td>\n<td style=\"width: 217px;\"><em>%credit:accounts|2:date%</em></td>\n</tr>\n<tr>\n<td style=\"width: 215px;\"><em>%credit:accounts|3:type%</em></td>\n<td style=\"width: 217px;\"><em>$%credit:accounts|3:amount%</em></td>\n<td style=\"width: 217px;\"><em>%credit:accounts|3:date%</em></td>\n</tr>\n</tbody>\n</table>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/VU/Credit Check/English/Existing Loans"
+}

@@ -1,0 +1,23 @@
+{
+    "EmbeddedOmniScriptKey": "dc|lwccheckout|English",
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "DigitalCommerceLWCCheckout1",
+    "OmniProcessId": {
+        "Name": "DCLWCSampleOS",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/dc/lwc/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "PropertySetConfig": {
+        "Language": "English",
+        "Sub Type": "lwccheckout",
+        "Type": "dc",
+        "disOnTplt": false,
+        "show": null
+    },
+    "Type": "OmniScript",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/dc/lwc/English/DigitalCommerceLWCCheckout1"
+}

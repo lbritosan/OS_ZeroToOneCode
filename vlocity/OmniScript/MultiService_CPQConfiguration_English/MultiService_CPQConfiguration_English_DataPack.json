@@ -1,0 +1,28 @@
+{
+    "CustomHtmlTemplates": "MultiService_CPQConfiguration_English_HTMLTemplates.html",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "MultiServiceCPQConfiguration",
+    "OmniProcessElement": [
+        "MultiService_CPQConfiguration_English_Element_SetPageSizeForServicePoints.json",
+        "MultiService_CPQConfiguration_English_Element_SelectMasterQuote.json",
+        "MultiService_CPQConfiguration_English_Element_SelectMasterQuoteUI.json",
+        "MultiService_CPQConfiguration_English_Element_ManageGroup.json",
+        "MultiService_CPQConfiguration_English_Element_ManageGroupUI.json",
+        "MultiService_CPQConfiguration_English_Element_CPQ.json",
+        "MultiService_CPQConfiguration_English_Element_MultiServiceCPQ.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "MultiService_CPQConfiguration_English_PropertySetConfig.json",
+    "SubType": "CPQConfiguration",
+    "Type": "MultiService",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/MultiService/CPQConfiguration/English",
+    "WebComponentKey": "9eb203ed-ca2c-bb34-c195-c467ee8a757a"
+}

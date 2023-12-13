@@ -1,0 +1,30 @@
+{
+    "Description": "Change Contact email and phone",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": false,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": true,
+    "Language": "English",
+    "Name": "Sample Edit Contact",
+    "OmniProcessElement": [
+        "sample_editContact_English_Element_IPGetContactDetails.json",
+        "sample_editContact_English_Element_StepContact.json",
+        "sample_editContact_English_Element_ContactName.json",
+        "sample_editContact_English_Element_LineBreak1.json",
+        "sample_editContact_English_Element_ContactEmail.json",
+        "sample_editContact_English_Element_LineBreak2.json",
+        "sample_editContact_English_Element_ContactPhone.json",
+        "sample_editContact_English_Element_IPSaveContactDetails.json",
+        "sample_editContact_English_Element_NavigateAction1.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "sample_editContact_English_PropertySetConfig.json",
+    "SubType": "editContact",
+    "Type": "sample",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/sample/editContact/English",
+    "WebComponentKey": "78f213c3-616a-7896-42f5-c142835aae2e"
+}

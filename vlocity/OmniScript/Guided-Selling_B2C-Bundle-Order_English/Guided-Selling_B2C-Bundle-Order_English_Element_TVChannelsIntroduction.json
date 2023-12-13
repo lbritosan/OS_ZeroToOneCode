@@ -1,0 +1,36 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "TVChannelsIntroduction",
+    "OmniProcessId": {
+        "Name": "Customer Mobile Order",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "SpecialOffer",
+        "OmniProcessId": {
+            "Name": "Customer Mobile Order",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/Guided Selling/B2C Bundle Order/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/SpecialOffer",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "SpecialOffer",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "controlWidth": 12,
+        "dataJSON": false,
+        "label": "Game of Thrones Season 6 is out now!",
+        "show": null,
+        "text": "<p>Game of Thrones is part of our premium channels. Upgrade now!&nbsp;</p>\n<p>&nbsp;</p>\n<div style=\"width: 800px; display: block; margin: auto;\"><iframe src=\"https://www.youtube.com/embed/EI0ib1NErqg\" width=\"800\" height=\"500\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\"></iframe></div>"
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/Guided Selling/B2C Bundle Order/English/TVChannelsIntroduction"
+}

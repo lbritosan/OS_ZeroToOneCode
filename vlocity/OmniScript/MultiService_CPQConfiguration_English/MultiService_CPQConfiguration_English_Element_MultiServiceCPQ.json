@@ -1,0 +1,39 @@
+{
+    "IsActive": true,
+    "IsOmniScriptEmbeddable": false,
+    "Name": "MultiServiceCPQ",
+    "OmniProcessId": {
+        "Name": "MultiServiceCPQConfiguration",
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcess/MultiService/CPQConfiguration/English",
+        "VlocityRecordSObjectType": "OmniProcess"
+    },
+    "ParentElementId": {
+        "Name": "CPQ",
+        "OmniProcessId": {
+            "Name": "MultiServiceCPQConfiguration",
+            "VlocityDataPackType": "VlocityMatchingKeyObject",
+            "VlocityMatchingRecordSourceKey": "OmniProcess/MultiService/CPQConfiguration/English",
+            "VlocityRecordSObjectType": "OmniProcess"
+        },
+        "VlocityDataPackType": "VlocityMatchingKeyObject",
+        "VlocityMatchingRecordSourceKey": "OmniProcessElement/OmniProcess/MultiService/CPQConfiguration/English/CPQ",
+        "VlocityRecordSObjectType": "OmniProcessElement"
+    },
+    "ParentElementName": "CPQ",
+    "ParentElementType": "Step",
+    "PropertySetConfig": {
+        "HTMLTemplateId": "",
+        "controlWidth": 12,
+        "dataJSON": false,
+        "disOnTplt": false,
+        "label": "MultiServiceCPQ",
+        "show": null,
+        "text": "<p><iframe id=\"multi-service\" style=\"margin-top: 0px; height: 83vh;\" src=\"apex/MultiServiceCPQRedirect?contextId=%masterQuoteId%&amp;parentId=%ContextId%&amp;redirectToFirstGroup=true&amp;groupPageSize=%groupPageSize%&amp;groupedServicePageSize=%groupedServicePageSize%\" name=\"multi-service-cpq\" width=\"100%\" height=\"150\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" align=\"top\"></iframe></p>",
+        "textKey": ""
+    },
+    "Type": "Text Block",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcessElement",
+    "VlocityRecordSourceKey": "OmniProcessElement/OmniProcess/MultiService/CPQConfiguration/English/MultiServiceCPQ"
+}

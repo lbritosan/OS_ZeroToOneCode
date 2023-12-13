@@ -1,0 +1,23 @@
+{
+    "Description": "Contains DataRaptors to extract and filter products",
+    "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+    "IsIntegrationProcedure": false,
+    "IsMetadataCacheDisabled": false,
+    "IsOmniScriptEmbeddable": true,
+    "IsTestProcedure": false,
+    "IsWebCompEnabled": false,
+    "Language": "English",
+    "Name": "Get CPQ Object Ids",
+    "OmniProcessElement": [
+        "CPQ_Reusable_English_Element_SetPriceListId.json",
+        "CPQ_Reusable_English_Element_GetCPQObjectIdsDR.json"
+    ],
+    "OmniProcessType": "OmniScript",
+    "PropertySetConfig": "CPQ_Reusable_English_PropertySetConfig.json",
+    "SubType": "Reusable",
+    "Type": "CPQ",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "OmniProcess",
+    "VlocityRecordSourceKey": "OmniProcess/CPQ/Reusable/English",
+    "WebComponentKey": "d2209a23-c708-dc81-4897-325e79288f65"
+}
