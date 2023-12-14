@@ -64,6 +64,7 @@ VlocityDataPackKeys:
     - IntegrationProcedure/IP_ForOS_IP_ForOS
     - IntegrationProcedure/IP_Group_Conditional_Block_IP_Group_Conditional_Block
     - IntegrationProcedure/IP_Group_Loop_Block_IP_Group_Loop_Block
+    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
     - IntegrationProcedure/IP_List_Action_Multiple_Examples_IP_List_Action_Multiple_Examples
     - IntegrationProcedure/IP_Send_Response_Transformations_IP_Send_Response_Transformations
     - IntegrationProcedure/IP_Set_Response_Action_IP_Set_Response_Action
@@ -198,7 +199,7 @@ VlocityDataPackKeys:
     - VlocityCard/sampleWeather
     - VlocityCard/sampleWeatherForecast
     - VlocityCard/teamCases335
-    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
+    - remoteSiteSettings/ChuckNorrisAPI.remoteSite
 VlocityTypesToFetch:
     - DataRaptor
     - IntegrationProcedure
@@ -206,3 +207,4 @@ VlocityTypesToFetch:
     - Pricebook2
     - VlocityCard
 SalesforceTypesToFetch:
+    - RemoteSiteSetting
