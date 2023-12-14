@@ -177,7 +177,14 @@ VlocityDataPackKeys:
     - Pricebook2/Standard
     - Pricebook2/Standard Price Book
     - VlocityCard/FC_AccountDetails
+    - VlocityCard/FC_Block_State_Elements
+    - VlocityCard/FC_ChildContacts
     - VlocityCard/FC_ChildFlexCard
+    - VlocityCard/FC_Custom_DataSource
+    - VlocityCard/FC_DataRaptorAsDataSource
+    - VlocityCard/FC_Field_text_Image_Icon_Elements
+    - VlocityCard/FC_IP_AsDataSource
+    - VlocityCard/FC_Parent_Accounts
     - VlocityCard/FC_ParentFlexCard
     - VlocityCard/FC_SelectableItems
     - VlocityCard/sampleAccount
@@ -191,28 +198,11 @@ VlocityDataPackKeys:
     - VlocityCard/sampleWeather
     - VlocityCard/sampleWeatherForecast
     - VlocityCard/teamCases335
-    - VlocityCard/FC_Block_State_Elements
-    - VlocityCard/FC_ChildContacts
-    - VlocityCard/FC_Custom_DataSource
-    - VlocityCard/FC_DataRaptorAsDataSource
-    - VlocityCard/FC_Field_text_Image_Icon_Elements
-    - VlocityCard/FC_IP_AsDataSource
-    - VlocityCard/FC_Parent_Accounts
+    - IntegrationProcedure/IP_HttpActionGetPost_Example_IP_HttpActionGetPost_Example
 VlocityTypesToFetch:
-    - CalculationMatrix
     - DataRaptor
     - IntegrationProcedure
     - OmniScript
     - Pricebook2
-    - VlocityAction
-    - VlocityAttachment
     - VlocityCard
-    - VlocityDataStore
-    - VlocityFunction
-    - VlocityPicklist
-    - VlocityScheduledJob
-    - VlocitySearchWidgetSetup
-    - VlocityStateModel
-    - VlocityUILayout
-    - VlocityUITemplate
 SalesforceTypesToFetch:
